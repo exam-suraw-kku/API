@@ -17,7 +17,7 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
-app.get('/students', function (req, res) { //เซต get methord
+app.get('/students', function (req, res) { //เซต get methord กำหนด Route
    fs.readFile( __dirname + "/" + "students.json", 'utf8', function (err, data) {
       console.log( data );
       res.end( data );
