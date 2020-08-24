@@ -11,4 +11,4 @@ http.createServer(function (request, response) {
 }).listen(8080);
 
 // Console will print the message
-console.log('Server running at http://%s:%s:8080/');
+console.log('Server running at http://localhost:8080/');
